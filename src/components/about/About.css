@@ -1,0 +1,125 @@
+.about_container {
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%;
+}
+
+.about_me {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
+  display: grid;
+  place-items: center;
+}
+
+.about_me-image {
+  border-radius: 2rem;
+  overflow: hidden;
+  transform: rotate(10deg);
+}
+
+.about_me-image:hover {
+  transform: rotate(0);
+}
+
+.about_content p {
+  margin: 2rem 0 2.6rem;
+  color: var(--color-light);
+}
+
+/* =============== Timeline======================= */
+.journey_sections {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+
+.interest_sections {
+  display: grid;
+  grid-template-columns: 0.7fr;
+  justify-content: center;
+}
+
+.journey_content {
+  display: block;
+}
+
+.journey_data {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  column-gap: 1.5rem;
+}
+
+.journey_title {
+  font-size: 400;
+  font-weight: 500;
+}
+
+.journey_subtitle {
+  display: flex;
+  font-size: 300;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.icon {
+  width: 14px;
+  height: 14px;
+  margin-right: 0.2rem;
+}
+
+.journey_rounder {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: var(--color-primary);
+  border-radius: 50%;
+}
+
+.journey_line {
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: var(--color-light);
+  transform: translate(5px, -14px);
+}
+
+/* ======================MEDIA QUERIES (MEDIUM DEVICES) ================== */
+@media screen and (max-width: 1024px) {
+  .about_container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .about_me {
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+
+  .about_content p {
+    margin: 1rem 0 1.5rem;
+  }
+}
+
+/* ======================MEDIA QUERIES (SMALL DEVICES) ================== */
+@media screen and (max-width: 600px) {
+  .about_me {
+    width: 65%;
+    margin: 0 auto 3rem;
+  }
+
+  .about_content {
+    text-align: center;
+  }
+
+  .about_content p {
+    margin: 1.5rem 0;
+  }
+}
