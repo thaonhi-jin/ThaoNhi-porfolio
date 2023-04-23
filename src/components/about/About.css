@@ -29,7 +29,7 @@
 }
 
 .about_content p {
-  margin: 2rem 0 2.6rem;
+  margin: 1rem 0 1.6rem;
   color: var(--color-light);
 }
 
@@ -67,6 +67,11 @@
   margin-top: 8px;
   margin-bottom: 10px;
   align-items: center;
+  color: var(--color-primary);
+}
+
+.journey_calendar {
+  color: var(--color-light);
 }
 
 .icon {

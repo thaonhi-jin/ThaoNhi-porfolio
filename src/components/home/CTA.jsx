@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../assets/cv.pdf";
+import CV from "../../assets/ThaoNhi'sCV.pdf";
 
 function CTA() {
   return (
@@ -7,7 +7,7 @@ function CTA() {
       <a href={CV} download className="btn">
         Download CV
       </a>
-      <a href="#contact" className="btn btn-primary">
+      <a href="#about" className="btn btn-primary">
         About me
       </a>
     </div>

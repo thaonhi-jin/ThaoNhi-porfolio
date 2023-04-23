@@ -59,11 +59,11 @@ function Skill() {
             </article>
             <article className="skill_details">
               <BsFillCheckCircleFill className="skill_details-icon" />
-              <h4>PHP, MySQL, AJAX</h4>
+              <h4>PHP, MySQL</h4>
             </article>
             <article className="skill_details">
               <BsFillCheckCircleFill className="skill_details-icon" />
-              <h4>Restful Service, WebAPIs</h4>
+              <h4>Restful Service</h4>
             </article>
             <article className="skill_details">
               <BsFillCheckCircleFill className="skill_details-icon" />
