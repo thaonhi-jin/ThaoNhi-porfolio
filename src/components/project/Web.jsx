@@ -17,7 +17,7 @@ function Web() {
       image: IMG2,
       title: "Cafe Street",
       source: "https://github.com/Henrywalker2002/cafeStore.git",
-      demo: "https://github.com/Henrywalker2002/cafeStore.git",
+      demo: "",
     },
     {
       id: 3,
